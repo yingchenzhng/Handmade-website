@@ -1,0 +1,421 @@
+html, body {
+    margin: 0px;
+    background-image: linear-gradient(to bottom right, #eeeee4, #FDD2C9);
+    }
+
+    h1 {
+    color: #000000;
+    font-family: Georgia, serif;
+    opacity: 60%;
+    position: absolute;
+    }
+    
+    h2{
+    font-family: Copperplate, serif;
+    opacity: 100%;
+    margin-top: 300px;
+    }
+
+    h3{
+    font-family: Copperplate, serif;
+    opacity: 100%;
+    margin-top: 150px;
+    font-size: 150px;
+    }
+
+    header {
+        margin-top: -300px;
+        margin-left: 200;
+        }
+
+    .wrapper {
+        margin-top: -200px;
+        margin-left: 200;
+        }
+
+    .plane2 {
+        text-align: center;
+        margin-top: 150px;
+        }
+        .plane2_image {
+        height: 70vh;
+        }
+
+        footer {
+            background-color: #AD9A78;
+            color: #fff;
+            width: 98%;
+            height: 60px;
+            margin: 1%;
+            margin-top: 200px;
+            opacity: 60%
+            }
+            footer p{
+            font-family: 'Segoe UI', Copperplate, serif;
+            text-align: center;
+            padding: 20px;
+            }
+
+            .mouse_link{
+                height: 180px;
+                width: 18.5vw;
+                margin: 1% 0 1% 1%;
+                }
+                .mouse_link:hover {
+                filter: grayscale(70%);
+                }
+
+                .ticket {
+                    text-align: center;
+                    margin-top: 150px;
+                    }
+                    .ticket_image {
+                    height: 70vh;
+                    }
+
+
+                    .view {
+                        text-align: center;
+                        margin-top: 150px;
+                        }
+                        .view_image {
+                        height: 70vh;
+                        }
+
+            .table{
+                text-align: center;
+                margin-top: 100px;
+                }
+                .table_image {
+                height: 100vh;
+
+            }
+
+            .letter{
+                text-align: center;
+                margin-top: 100px;
+                }
+                .letter_image {
+                height: 100vh;
+
+            }
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #EAA4BE;
+    color: white;
+    padding: 16px;
+    font-size: 30px;
+    border-radius: 12px;
+    top: -320%;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: -300%;
+    left: 50%;
+    background-color: #f1f1f1;
+    transform: translateX(-50%);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 16px 18px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Center the dropdown button and content */
+  .dropdown-center {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media only screen and (max-width: 600px) {
+    .dropdown-content {
+      width: 100%;
+      left: 0;
+      transform: none;
+    }
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #EAA4BE;}
+
+.homekey{
+    float: none;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#FE957F
+}
+
+.key1{
+    float: none;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#FE957F
+}
+
+.key2{
+    float: none;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#FE957F
+}
+
+.key3{
+    float: none;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#FE957F
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: #ddd;
+  }
+
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .next {
+    background-color: #EAA4BE;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+
+  .round {
+    border-radius: 50%;
+  }
+
+
+
+#myButton {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 200;
+    height: 30;
+    width: 80;
+    top: 400px;
+    opacity: 70%
+}
+
+#demo{
+
+    position: absolute; 
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 300;
+    top: 400px;
+    font-family: Georgia, serif;
+    font-size: 60px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px 0;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+
+.header1{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.letter{
+    text-align: center;
+    margin-top: 150px;
+    font: 100px;
+}
+
+  .hands {
+    text-align: center;
+    margin-top: 150px;
+    }
+    .hands_image {
+    height: 150%;
+    width: auto;
+    }
+
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    
+  }
+
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -560px;
+  }
+
+
+  .box {
+    background-color: white;
+    opacity: 60%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 1000px;
+  }
+
+  .btn {
+    background-color: #EAA4BE;
+    display: block;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-right:47%;
+    margin-top: 30px;
+
+
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #eb5a8f;
+  }
+
+  .btn1 {
+    background-color: #EAA4BE;
+    display: block;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-right:45%;
+    margin-top: 30px;
+  }
+
+   /* Darker background on mouse-over */
+   .btn:hover {
+    background-color: #eb5a8f;
+  }
+  
+  .page{
+	width: 100%;
+	text-align: center;
+}
+.page img{
+	width: 400px;
+}
+.input-group{
+	width: 400px;
+	display: flex;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+.input-group>input{
+	width: 100%;
+}
+.input-group>button{
+	width: 100px;
+	padding: 10px;
+	background-color: #EAA4BE;
+	color: #fff;
+	margin-left: 10px;
+	cursor: pointer;
+}
